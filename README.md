@@ -44,3 +44,6 @@ order,int,1
 settings.index.mapping.total_fields.limit,int,10000
 settings.index.refresh_interval,str,5s
 ```
+
+**TODO:**
+* Tests
