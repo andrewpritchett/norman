@@ -13,20 +13,24 @@ optional arguments:
   -c CSV, --csv CSV     output path for csv file
 ```
 
+**Install:**
+```
+$ python setup.py install
+```
 
 **Example 1:**
 ```
-$ python norman/norman.py -p /path/to/input/file.json
+$ norman -p /path/to/input/file.json
 ```
 
 **Example 2:**
 ```
-$ python norman/norman.py -p /path/to/input/file.json -c /path/to/output/file.csv
+$ norman -p /path/to/input/file.json -c /path/to/output/file.csv
 ```
 
 **Example 3:**
 ```
-$ python norman/norman.py -d '{"order": 1, "settings": {"index": {"mapping": {"total_fields": {"limit": 10000}},"refresh_interval": "5s"}}}' -c /path/to/output/file.csv
+$ norman -d '{"order": 1, "settings": {"index": {"mapping": {"total_fields": {"limit": 10000}},"refresh_interval": "5s"}}}' -c /path/to/output/file.csv
 ```
 
 **Example Terminal Output:**
